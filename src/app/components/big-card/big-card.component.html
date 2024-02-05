@@ -1,12 +1,12 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*DTy8tlNHXGc0g4sB" alt="">
-    <span>January 24, 2024</span>
+    <img src="{{ bigCard.photoCover}}" alt="" />
+    <span>{{bigCard.date}}</span>
   </div>
   <h1 class="big-card__title">
-    Nova versão do angular já tem suporte a longo prazo
+    {{ bigCard.cardTitle }}
   </h1>
   <p class="big-card__description">
-    A nova versão do angular é um marco para a tecnologia, sendo incluídos muitos recursos nativos e novas sintaxes mais legíveis e funcionais para controle de fluxo de componentes e estruturas.
+    {{ bigCard.cardDescription }}
   </p>
 </div>

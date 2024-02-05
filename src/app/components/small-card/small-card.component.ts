@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { SmallCard } from '../../models/SmallCard';
 
 @Component({
   selector: 'small-card',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './small-card.component.scss'
 })
 export class SmallCardComponent {
-
+  @Input() smallCard!: SmallCard
 }

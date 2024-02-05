@@ -86,6 +86,8 @@
 @media screen and (max-width: 768px) {
   .container__menu-bar {
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
     .menu-bar__navigation {
       justify-content: center;
