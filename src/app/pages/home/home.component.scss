@@ -1,0 +1,19 @@
+.container {
+  width: 95%;
+  margin: 2rem auto;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+  .articles__main {
+    width: 47.5%;
+    display: flex;
+  }
+  .articles__others {
+    width: 47.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

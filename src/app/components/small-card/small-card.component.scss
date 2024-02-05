@@ -1,0 +1,22 @@
+.container__small-card {
+  display: flex;
+  gap: 10px;
+  color: #FDFDFD;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #414141;
+}
+
+.small-card__photo {
+  img {
+    height: 140px;
+  }
+}
+
+.small-card__description {
+  span {
+    color: #414141;
+    font-weight: 500;
+  }
+}
