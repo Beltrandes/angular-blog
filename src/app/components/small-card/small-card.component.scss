@@ -1,7 +1,7 @@
 .container__small-card {
   display: flex;
   gap: 10px;
-  color: #FDFDFD;
+  color: #fdfdfd;
   width: 100%;
   margin: 0 auto;
   padding-bottom: 20px;
@@ -9,14 +9,31 @@
 }
 
 .small-card__photo {
+  width: 48%;
+  object-fit: contain;
   img {
-    height: 140px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 }
 
 .small-card__description {
+  width: 48%;
+  h2 {
+    font-size: 1.7vw;
+  }
   span {
     color: #414141;
     font-weight: 500;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .small-card__description {
+    h2 {
+      font-size: 3.7vw;
+    }
   }
 }

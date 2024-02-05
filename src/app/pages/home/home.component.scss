@@ -13,7 +13,22 @@
   .articles__others {
     width: 47.5%;
     display: flex;
+    gap: .5rem;
     flex-direction: column;
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .articles {
+    gap: 1rem;
+    flex-direction: column;
+    .articles__main {
+      width: 100%;
+    }
+    .articles__others {
+      width: 100%;
+    }
+  }
+}
+

@@ -18,4 +18,21 @@
       font-weight: 500;
     }
   }
+  .big-card__title {
+    font-size: 2.5vw;
+  }
+  .big-card__description {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container__big-card {
+    .big-card__title {
+      font-size: 4.5vw;
+    }
+    .big-card__description {
+      font-size: 2.5vw;
+    }
+  }
 }

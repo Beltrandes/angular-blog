@@ -23,7 +23,6 @@
         background-color: transparent;
         color: #414141;
         font-weight: bold;
-        line-height: 50px;
         font-size: 1.7rem;
       }
     }
@@ -36,12 +35,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        line-height: 0.7rem;
         a {
           text-decoration: none;
           font-weight: bold;
-          font-size: 0.9rem;
-          line-height: 0.7rem;
+          font-size: 1.2vw;
           letter-spacing: -.09rem;
           color: #595959;
         }
@@ -65,6 +62,37 @@
         a {
           img {
             height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .container__menu-bar {
+    .menu-bar__navigation {
+      .menu-bar__nav-links {
+        li {
+          a {
+            font-size: 1.5vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container__menu-bar {
+    flex-direction: column-reverse;
+    gap: 1rem;
+    .menu-bar__navigation {
+      justify-content: center;
+      .menu-bar__nav-links {
+        li {
+          a {
+            font-size: 2.5vw;
           }
         }
       }
