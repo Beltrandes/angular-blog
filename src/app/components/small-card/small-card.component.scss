@@ -20,8 +20,14 @@
 
 .small-card__description {
   width: 48%;
-  h2 {
-    font-size: 1.7vw;
+  a {
+    font-size: 1.6vw;
+    text-decoration: none;
+    color: #FDFDFD;
+    display: block;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   span {
     color: #414141;

@@ -5,10 +5,10 @@
   <menu-title></menu-title>
   <div class="articles">
     <div class="articles__main">
-      <big-card [bigCard]="bigCard1"></big-card>
+      <big-card [bigCard]="cards[2]"></big-card>
     </div>
     <div class="articles__others">
-      @for (smallCard of smallCards; track smallCard.cardDescription) {
+      @for (smallCard of cards; track smallCard.cardDescription) {
         <small-card [smallCard]="smallCard"></small-card>
       }
     </div>

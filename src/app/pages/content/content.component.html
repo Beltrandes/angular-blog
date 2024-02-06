@@ -1,0 +1,22 @@
+<div class="container">
+  <header>
+    <menu-bar></menu-bar>
+  </header>
+  <div class="content__container">
+    <div class="content__navigation">
+      <a (click)="previousCard(contentToLoad.id)">< Anterior</a>
+      <a routerLink="">Início</a>
+      <a (click)="nextCard(contentToLoad.id)"> Próximo > </a>
+    </div>
+  <div class="content__cover">
+    <img src="{{contentToLoad.photoCover}}" alt="">
+  </div>
+  <span class="content__date">{{contentToLoad.date}}</span>
+  <h1 class="content__title">
+    {{contentToLoad.cardTitle}}
+  </h1>
+  <p class="content__description">
+    {{contentToLoad.cardDescription}}
+  </p>
+</div>
+</div>

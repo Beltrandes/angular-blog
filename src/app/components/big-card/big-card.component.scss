@@ -19,10 +19,16 @@
     }
   }
   .big-card__title {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
+    text-decoration: none;
+    color: #FDFDFD;
+    font-weight: bold;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .big-card__description {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
   }
 }
 

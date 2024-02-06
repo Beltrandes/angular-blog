@@ -1,13 +1,14 @@
 import { Component, Input } from '@angular/core';
-import { SmallCard } from '../../models/SmallCard';
+import { Card } from '../../models/Card';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'small-card',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.scss'
 })
 export class SmallCardComponent {
-  @Input() smallCard!: SmallCard
+  @Input() smallCard!: Card
 }
